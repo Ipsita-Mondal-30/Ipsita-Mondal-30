@@ -145,11 +145,9 @@ Building scalable web applications, AI-powered products and solving real-world p
 ---
 
 # 🐍 Contribution Snake
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/Ipsita-Mondal-30/Ipsita-Mondal-30/output/github-contribution-grid-snake.svg"/>
 </p>
-
 
 
 ---
