@@ -11,6 +11,8 @@ CS student at Bennett University · Worked with 7+ international clients · Winn
 ## Featured projects
 
 ### Workpunkt: student management platform (Germany)
+**[Website](http://workpunkt.com/)**
+
 Workpunkt is an education and student-management platform based in Germany. I worked on it as a **Full Stack AI Engineer**.
 
 **The problem:** much of the student-management workflow was running through Excel sheets and fragmented processes: applications, documents, counsellor and agent workflows, and student information. The goal was to bring all of it into one centralized platform.
@@ -45,23 +47,19 @@ Tells a brand how AI assistants talk about it. Customers now ask ChatGPT or Gemi
 
 ---
 
-### Pensyl: AI writing and orchestration workspace
-**[Repository](https://github.com/Ipsita-Mondal-30/pensyl-workspace)**
-
-Modern writing workflows are scattered across Google Docs, Notion and other productivity tools. Pensyl explores something conceptually similar to Cursor, but for writing: the AI isn't just generating text, it orchestrates different tools and actions as part of the workflow.
-
-**What I worked on:** structuring the orchestration layer with LangChain, connecting the LLM to tools, and managing the flow between the model, tool execution and the final output.
-
----
-
 ### Talora: AI-powered HR platform
+**[Live demo](http://hr-frontend-54b2.vercel.app/)**
+
 An HR platform connecting candidates, recruiters and employees, with AI doing the repetitive evaluation work.
 
-- **AI features:** resume parsing, candidate evaluation using Gemini, Cohere and Groq, and AI interview assistance
+- **AI features:** resume parsing, candidate evaluation, and AI interview assistance
+- **Multiple LLMs:** I integrated and handled **Groq, Gemini and Cohere** together, using different models for different AI tasks
+- **Token optimisation:** I worked on keeping token usage and LLM cost under control across these calls
 - **Product features:** role-based authentication, employee management
 - **Stack:** Next.js, React, Node.js, Express, MongoDB, PostgreSQL
-- **What I built:** the entire project, end to end: role-based authentication and workflows, backend APIs, database models, AI-powered resume and candidate evaluation flows, and the integration of Gemini, Cohere and Groq for different AI tasks.
-- **Links:** [Live demo](http://hr-frontend-54b2.vercel.app/)
+- **What I built:** the entire project, end to end: role-based authentication and workflows, backend APIs, database models, AI-powered resume and candidate evaluation flows, and the multi-LLM integration
+
+---
 
 ### Influmojo: influencer marketplace
 A marketplace connecting brands and influencers, with payments, messaging and a mobile app.
@@ -69,6 +67,15 @@ A marketplace connecting brands and influencers, with payments, messaging and a 
 - **Features:** brand and influencer flows, Razorpay payments, messaging and notifications, AWS S3 storage, mobile app
 - **Stack:** React, Node.js, Express, PostgreSQL, Prisma
 - **Links:** [Live site](http://influmojo.com/)
+
+---
+
+### Pensyl: AI writing and orchestration workspace
+**[Repository](https://github.com/Ipsita-Mondal-30/pensyl-workspace)**
+
+Modern writing workflows are scattered across Google Docs, Notion and other productivity tools. Pensyl explores something conceptually similar to Cursor, but for writing: the AI isn't just generating text, it orchestrates different tools and actions as part of the workflow.
+
+**What I worked on:** structuring the orchestration layer with LangChain, connecting the LLM to tools, and managing the flow between the model, tool execution and the final output.
 
 ---
 
@@ -98,6 +105,7 @@ A marketplace connecting brands and influencers, with payments, messaging and a 
 - **Going deeper into LLM application development:** agents, RAG, retrieval, structured outputs, tool/function calling, context engineering, prompt design, and validating model responses
 - **Production AI architecture:** queues, Redis, rate limiting, API gateways, caching, retries, observability, worker-based processing, and scalable LLM pipelines
 - **Making LLM apps more reliable:** controlled context, retrieval, deterministic business rules, structured validation, fallback strategies, and human-in-the-loop workflows
+- **Looking into transformers:** how they work and what that means for building with LLMs
 - **Building Lezi,** a women-focused dating platform. I'm working on the backend architecture with Node.js, Supabase Auth and PostgreSQL, covering authentication, onboarding, profiles, preferences, discovery, likes and matching
 
 ---
