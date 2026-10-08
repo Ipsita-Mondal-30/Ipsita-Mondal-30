@@ -1,214 +1,94 @@
-# 👋 Hi, I'm Ipsita Mondal
+# Hi, I'm Ipsita Mondal
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&center=true&width=600&lines=Full+Stack+Developer;AI+Enthusiast;Building+Scalable+Products;Computer+Science+Student"/>
-</p>
+**Full-stack developer building LLM-powered products.** I like taking a messy real-world workflow (hiring, brand visibility, marketplaces) and turning it into something people actually use, from the database to the UI to the AI layer.
 
-<p align="center">
-  <b>Computer Science Student | Full Stack Developer | AI Enthusiast</b>
-</p>
+CS student at Bennett University · Worked with 7+ international clients · Winner, Project Showcase 2024 · Winner, Bot Bonanza Ideathon
 
-<p align="center">
-Building scalable web applications, AI-powered products and solving real-world problems with technology 🚀
-</p>
-
-<p align="center">
-<a href="https://github.com/Ipsita-Mondal-30">
-<img src="https://komarev.com/ghpvc/?username=Ipsita-Mondal-30&label=Profile%20Views&color=blue&style=flat"/>
-</a>
-</p>
-
+[LinkedIn](https://www.linkedin.com/in/ipsita-mondal-865912313/) · [Portfolio](https://tech-ips-portfolio.vercel.app/) · [Email](mailto:ipsitaamondal@gmail.com)
 
 ---
 
-# 🛠️ Tech Stack
+## Featured projects
 
+### Cyted (live as "Strand"): AI visibility platform
+**[Live demo](https://cyted-neon.vercel.app/)**
 
-## 💻 Languages
+Tells a brand how AI assistants talk about it. Customers now ask ChatGPT or Gemini what to buy, and traditional SEO tools can't show what those models actually recommend. Cyted measures that.
 
-<p>
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-</p>
+**How it works**
 
+1. **Start an analysis:** enter a company name, website, description, and optionally a list of competitors.
+2. **Clean the input:** brand and competitor names are typo-corrected automatically, and five extra competitors are discovered and de-duplicated against what you entered.
+3. **Query multiple models:** the same prompts and topics are sent to ChatGPT, Gemini, Claude and Groq, with live web search turned on so answers reflect the current web.
+4. **Score visibility:** responses are analysed for how often the brand is mentioned and how often it is recommended, compared with its competitors.
+5. **Track and act:** choose the prompts and topics that matter, watch mentions over time, and use the results to decide what to improve.
 
-## 🎨 Frontend
+**What I built:** the multi-model LLM query pipeline, competitor discovery and de-duplication, brand mention and recommendation scoring, the asynchronous analysis workflow, backend APIs, database integration, and the analysis dashboard.
 
-<p>
-<img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js"/>
-<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3"/>
-</p>
-
-
-## ⚙️ Backend & Database
-
-<p>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express.js-black?style=for-the-badge&logo=express"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb"/>
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis"/>
-</p>
-
-
-## 🤖 AI & Developer Tools
-
-<p>
-<img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github"/>
-<img src="https://img.shields.io/badge/Cursor_AI-black?style=for-the-badge"/>
-</p>
-
-
-## 🚀 DevOps & Cloud
-
-<p>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws"/>
-</p>
-
-
+**Links:** [Live demo](https://cyted-neon.vercel.app/)
 
 ---
 
-# 🔥 Featured Projects
+### Talora: AI-powered HR platform
+An HR platform connecting candidates, recruiters and employees, with AI doing the repetitive evaluation work.
 
+- **AI features:** resume parsing, candidate evaluation using Gemini, Cohere and Groq, and AI interview assistance
+- **Product features:** role-based authentication, employee management
+- **Stack:** Next.js, React, Node.js, Express, MongoDB, PostgreSQL
+- **What I built:** the entire project, end to end: role-based authentication and workflows, backend APIs, database models, AI-powered resume and candidate evaluation flows, and the integration of Gemini, Cohere and Groq for different AI tasks.
+- **Links:** [Live demo](http://hr-frontend-54b2.vercel.app/)
 
-## 🤖 Talora — AI Powered HR Management Platform
+### Influmojo: influencer marketplace
+A marketplace connecting brands and influencers, with payments, messaging and a mobile app.
 
-> AI-powered HR ecosystem connecting candidates, recruiters and employees.
-
-**Tech Stack**
-
-`Next.js` `React` `Node.js` `Express.js` `MongoDB` `PostgreSQL`
-
-✨ Features:
-
-- 🔐 Authentication & Role Based Access
-- 👥 Employee Management
-- 📄 AI Resume Parsing
-- 🧠 Candidate Evaluation using Gemini, Cohere & Groq
-- 🎤 AI Interview Assistance
-
-
+- **Features:** brand and influencer flows, Razorpay payments, messaging and notifications, AWS S3 storage, mobile app
+- **Stack:** React, Node.js, Express, PostgreSQL, Prisma
+- **Links:** [Live site](http://influmojo.com/)
 
 ---
 
-## 🌎 Influmojo — Influencer Marketplace Platform
+## Also built
 
-> Connecting brands and influencers through seamless collaboration.
-
-**Tech Stack**
-
-`React` `Node.js` `Express.js` `PostgreSQL` `Prisma`
-
-✨ Features:
-
-- 🤝 Brand & Influencer Marketplace
-- 💳 Razorpay Payment Integration
-- 🔔 Messaging & Notifications
-- ☁️ AWS S3 Storage
-- 📱 Mobile Application
-
-
+- **NexaGrow:** SEO-optimised e-commerce site for organic wellness products (Next.js, Tailwind CSS)
+- Smaller projects and experiments are in my repositories.
 
 ---
 
-## 🌱 NexaGrow — Organic Wellness Platform
+## Tech stack
 
-> E-commerce platform for premium Moringa-based wellness products.
-
-**Tech Stack**
-
-`Next.js` `React` `Tailwind CSS`
-
-✨ Features:
-
-- 🛒 Product Showcase
-- 🌿 Organic Wellness Branding
-- 📈 SEO Optimized Website
-
-
+| Area | Tools |
+|---|---|
+| Languages | TypeScript, JavaScript, Java, C++, SQL |
+| Frontend | React, Next.js, React Native, Tailwind CSS |
+| Backend | Node.js, Express, Spring Boot |
+| Data | PostgreSQL, MongoDB, Prisma, Redis |
+| AI / LLMs | OpenAI, Gemini, Claude, Cohere, Groq (multi-model API integration, prompt design, live web search) |
+| DevOps | Docker, GitHub Actions, AWS, Linux |
 
 ---
 
-# 🐍 Contribution Snake
-<p align="center">
-<img src="https://raw.githubusercontent.com/Ipsita-Mondal-30/Ipsita-Mondal-30/output/github-contribution-grid-snake.svg"/>
-</p>
+## Currently
 
-
----
-
-# 📊 GitHub Analytics
-
-<p align="center">
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=Ipsita-Mondal-30&show_icons=true&theme=transparent"/>
-
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ipsita-Mondal-30&theme=transparent"/>
-
-</p>
-
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ipsita-Mondal-30&layout=compact&theme=transparent"/>
-
-</p>
-
-
+- **Going deeper on LLM workflows:** agents, retrieval, and validating model output so results can be trusted
+- **Building Lezi,** a women-focused dating platform. I'm working on the backend architecture with Node.js, Supabase Auth and PostgreSQL, covering authentication, onboarding, profiles, preferences, discovery, likes and matching
+- **Exploring scalable backend systems:** asynchronous processing, Redis, queues, rate limiting, API gateways, and production-ready system design
 
 ---
 
-# 🏆 Achievements
+## Client work
 
-🥇 Winner — Project Showcase 2024, Bennett University
-
-🥇 Winner — Bot Bonanza Ideathon
-
-💻 105+ LeetCode Problems Solved
-
-🚀 Building AI-powered products
-
-
+I have worked with **7+ international clients** across **Australia, Germany, Los Angeles (USA), Slovenia and the Philippines**, taking requirements from people in different time zones and turning them into shipped products.
 
 ---
 
-# 📫 Connect With Me
+## Recognition
 
-
-<p align="center">
-
-<a href="https://www.linkedin.com/in/ipsita-mondal-865912313/">
-<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<a href="https://tech-ips-portfolio.vercel.app/">
-<img src="https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=vercel"/>
-</a>
-
-<a href="mailto:ipsitaamondal@gmail.com">
-<img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail"/>
-</a>
-
-</p>
-
+- Winner, Project Showcase 2024, Bennett University
+- Winner, Bot Bonanza Ideathon
+- 190+ DSA problems solved ([Codolio profile](https://codolio.com/profile/ipsitaa_30))
 
 ---
 
-<p align="center">
-⭐ Thanks for visiting my profile!
-</p>
+## Contact
+
+I'm happy to talk about product, AI and logistics-style workflow problems. Reach me on [LinkedIn](https://www.linkedin.com/in/ipsita-mondal-865912313/) or at ipsitaamondal@gmail.com.
