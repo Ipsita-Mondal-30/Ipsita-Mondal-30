@@ -60,6 +60,18 @@ An HR platform connecting candidates, recruiters and employees, with AI doing th
 - **What I built:** the entire project, end to end: role-based authentication and workflows, backend APIs, database models, AI-powered resume and candidate evaluation flows, and the multi-LLM integration
 
 ---
+Vanik
+AI-powered agriculture assistance platform using RAG, multi-agent orchestration, and multilingual voice workflows.
+
+Vanik combines domain-specific AI agents with retrieval-based systems to provide agricultural assistance across crop, weather, and disease-related workflows.
+
+Highlights
+ Multi-agent orchestration using LangChain
+ Vector embeddings and similarity search
+ Domain-specific agricultural agents
+ Crop and weather workflows
+ Crop disease detection using Indian leaf datasets
+ Multilingual voice responses using Google TTS
 
 ### Influmojo: influencer marketplace
 A marketplace connecting brands and influencers, with payments, messaging and a mobile app.
