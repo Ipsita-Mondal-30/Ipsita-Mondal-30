@@ -13,9 +13,14 @@ CS student at Bennett University · Worked with 7+ international clients · Winn
 ### Workpunkt: student management platform (Germany)
 **[Website](http://workpunkt.com/)**
 
-Workpunkt is an education and student-management platform based in Germany. I worked on it as a **Full Stack AI Engineer**.
+Workpunkt is an education and student-management platform based in Germany. I worked on it as a **Full Stack AI Engineer**, in a team of 5.
 
 **The problem:** much of the student-management workflow was running through Excel sheets and fragmented processes: applications, documents, counsellor and agent workflows, and student information. The goal was to bring all of it into one centralized platform.
+
+**What I did on the platform:**
+- Handled the website and the iOS app, built the admin side, and published the app on the App Store
+- Automated workflows on the website
+- Did the overall QA testing
 
 #### Klara: AI consultancy assistant
 Klara is an AI consultancy assistant inside Workpunkt that gives students personalised guidance. The interesting part was not connecting an LLM to a chatbot. It was making the AI useful for a student's actual situation by giving it controlled, structured context from the platform.
@@ -60,18 +65,18 @@ An HR platform connecting candidates, recruiters and employees, with AI doing th
 - **What I built:** the entire project, end to end: role-based authentication and workflows, backend APIs, database models, AI-powered resume and candidate evaluation flows, and the multi-LLM integration
 
 ---
-Vanik
-AI-powered agriculture assistance platform using RAG, multi-agent orchestration, and multilingual voice workflows.
 
-Vanik combines domain-specific AI agents with retrieval-based systems to provide agricultural assistance across crop, weather, and disease-related workflows.
+### Vanik: AI agriculture assistant
+AI-powered agriculture assistance platform using RAG, multi-agent orchestration, and multilingual voice workflows. It combines domain-specific AI agents with retrieval-based systems to provide agricultural assistance across crop, weather, and disease-related workflows.
 
-Highlights
- Multi-agent orchestration using LangChain
- Vector embeddings and similarity search
- Domain-specific agricultural agents
- Crop and weather workflows
- Crop disease detection using Indian leaf datasets
- Multilingual voice responses using Google TTS
+- Multi-agent orchestration using LangChain
+- Vector embeddings and similarity search
+- Domain-specific agricultural agents
+- Crop and weather workflows
+- Crop disease detection using Indian leaf datasets
+- Multilingual voice responses using Google TTS
+
+---
 
 ### Influmojo: influencer marketplace
 A marketplace connecting brands and influencers, with payments, messaging and a mobile app.
@@ -91,6 +96,18 @@ Modern writing workflows are scattered across Google Docs, Notion and other prod
 
 ---
 
+## Open source
+
+| Project | Contribution | Status |
+|---|---|---|
+| [Gulliver](https://github.com/laaielichter/Gulliver) (Python, SQL scale linter) | [#164](https://github.com/laaielichter/Gulliver/pull/164): lint now catches joins whose `ON` condition does not link the tables (`ON 1=1`, `ON t.id = t.id`), which let a full cartesian product through | Merged |
+| Gulliver | [#165](https://github.com/laaielichter/Gulliver/pull/165): `incremental` refuses a `--time-column` or `--unique-key` that does not exist, using a `SELECT * ... LIMIT 0` check | Approved |
+| Gulliver | [#186](https://github.com/laaielichter/Gulliver/pull/186): new lint rule GV019 `having-on-group-column`, for a `HAVING` condition that could move to `WHERE` | Open |
+| [agent-security](https://github.com/solongate/agent-security) (Go) | [#394](https://github.com/solongate/agent-security/pull/394): tests for command dispatch and the human-only terminal gate | Merged |
+| [PlugBrain](https://github.com/msbelaid/PlugBrain) (Kotlin, Android) | [#292](https://github.com/msbelaid/PlugBrain/pull/292): subtraction challenges no longer generate equal operands | Merged |
+
+---
+
 ## Also built
 
 - **Orchestration workflows:** connecting LLMs with different tools and services, exploring how an agent decides what action to take, invokes the right tool, and uses the result to continue the workflow
@@ -103,10 +120,10 @@ Modern writing workflows are scattered across Google Docs, Notion and other prod
 
 | Area | Tools |
 |---|---|
-| Languages | TypeScript, JavaScript, Java, C++, SQL |
+| Languages | TypeScript, JavaScript, Python, Go, Java, C++, SQL |
 | Frontend | React, Next.js, React Native, Tailwind CSS |
 | Backend | Node.js, Express, Spring Boot |
-| Data | PostgreSQL, MongoDB, Prisma, Redis |
+| Data | PostgreSQL, MySQL, MongoDB, Prisma, Redis |
 | AI / LLMs | OpenAI, Gemini, Claude, Cohere, Groq, LangChain (multi-model API integration, prompt design, live web search) |
 | DevOps | Docker, GitHub Actions, AWS, Linux |
 
@@ -118,6 +135,7 @@ Modern writing workflows are scattered across Google Docs, Notion and other prod
 - **Production AI architecture:** queues, Redis, rate limiting, API gateways, caching, retries, observability, worker-based processing, and scalable LLM pipelines
 - **Making LLM apps more reliable:** controlled context, retrieval, deterministic business rules, structured validation, fallback strategies, and human-in-the-loop workflows
 - **Looking into transformers:** how they work and what that means for building with LLMs
+- **Contributing to open source** in Python and Go (see above)
 - **Building Lezi,** a women-focused dating platform. I'm working on the backend architecture with Node.js, Supabase Auth and PostgreSQL, covering authentication, onboarding, profiles, preferences, discovery, likes and matching
 
 ---
